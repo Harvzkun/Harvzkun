@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StudentEnrollment {
 
-    // Constants for the fee per unit and maximum subjects
+    // Fee per unit and maximum subjects
     private static final int FEE_PER_UNIT = 1000;
     private static final int MAX_SUBJECTS = 10;
 
@@ -10,7 +10,7 @@ public class StudentEnrollment {
         // Create a scanner object for input
         Scanner scanner = new Scanner(System.in);
 
-        // Variables to hold student information
+        // Variables for student information
         String studentName;
         String course;
         String courseCode;
